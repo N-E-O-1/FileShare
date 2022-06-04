@@ -45,8 +45,8 @@ router.post('/send',async(req,res) => {
         to:emailTo,
         subject:'fileSharing',
         text:`${emailFrom} shared a file with you`,
-        hmtl:require('../services/emailTemplate')({
-            emailFrom:emailFrom,
+        html:require('../services/emailTemplate')({
+            emailFrom,
             downloadLink:`${process.env.APP_BASE_URL}/files/${file.uuid}`,
             size:parseInt(file.size/1000) + ' KB',
             expires:'24 hours'
