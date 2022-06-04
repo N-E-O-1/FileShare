@@ -148,7 +148,7 @@ module.exports = ({emailFrom, downloadLink, size, expires}) => {
                             <tr>
                             <td class="content-block" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;">
                                 <span class="apple-link" style="color: #999999; font-size: 12px; text-align: center;">inShare inc. main street 29, Moscow</span>
-                                <br> Want to share a file? <a href="http://localhost:3000" style="text-decoration: underline; color: #999999; font-size: 12px; text-align: center;">inShare</a>.
+                                <br> Want to share a file? <a href="https://filehare.herokuapp.com" style="text-decoration: underline; color: #999999; font-size: 12px; text-align: center;">inShare</a>.
                             </td>
                             </tr>
                             <tr>
