@@ -1,7 +1,7 @@
 
 # FileShare
 
-Crated FileShare backend using nodejs,mongoose and expressjs
+Created FileShare backend using nodejs,mongoose and expressjs
 with this api you can transfer any type of file to your friend
 you can transfer files one mail to other,to transfer file using
 email i have used nodemailer library and sendinblue.
